@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Recursos | Tecnologías Web</title>
+</head>
+<body>
+
+    <!-- Encabezado de sección -->
+    <header>
+        <h1>Contacto y Recursos Académicos</h1>
+        <p>Ponte en contacto con nosotros, comparte tus inquietudes y revisa las referencias utilizadas en este proyecto.</p>
+    </header>
+
+    <!-- Menú de navegación con rutas relativas desde pages/ -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="sociedad.html">Impacto en la Sociedad</a></li>
+            <li><a href="negocios.html">Impacto en los Negocios</a></li>
+            <li><a href="contacto.html">Contacto y Recursos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <p>Si tienes dudas, sugerencias o comentarios sobre la influencia de las tecnologías web en la sociedad y el entorno empresarial, déjanos tu mensaje:</p>
+            
+            <!-- Formulario de contacto con etiquetas semánticas y validación -->
+            <form action="https://www.utpl.edu.ec" method="post">
+                <div>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="Ej. juan@example.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="asunto">Asunto:</label><br>
+                    <input type="text" id="asunto" name="asunto" placeholder="Ej. Consulta o Sugerencia" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="6" cols="50" placeholder="Escribe aquí tu mensaje..." required></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Enviar Mensaje</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Referencias en formato APA 7ma edición -->
+        <section>
+            <h2>Referencias Bibliográficas (Formato APA 7ma Edición)</h2>
+            <p>Los conceptos y datos presentados en este sitio web se fundamentan en las siguientes obras académicas:</p>
+            <ul>
+                <li>López, M., Sánchez, D., &amp; Moreno, Á. (2016). <em>Programación Web en el Entorno Cliente</em>. RA-MA Editorial.</li>
+                <li>Nielsen, J. (2013). <em>Usabilidad web: teoría y uso</em>. Anaya Multimedia.</li>
+                <li>Sáenz, H. (2024). La importancia de la planificación en proyectos web. <em>RedALyC</em>, 12(2), 45-58.</li>
+                <li>Torres, D. A. (2025). <em>Tecnologías Web: Guía didáctica</em>. Universidad Técnica Particular de Loja (UTPL).</li>
+                <li>World Wide Web Consortium [W3C]. (2025). <em>Resumen de los estándares de accesibilidad de W3C</em>. https://www.w3.org/WAI/standards-guidelines/es</li>
+            </ul>
+        </section>
+
+        <!-- Contenido complementario -->
+        <aside>
+            <h3>¿Necesitas ayuda?</h3>
+            <p>Puedes comunicarte directamente con el equipo de soporte técnico o con tu tutor a través del Entorno Virtual de Aprendizaje (EVA) de la UTPL.</p>
+        </aside>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Desarrollado por: Wilmer David Angulo Monteros | Carrera de Tecnologías de la Información - UTPL (2026)</p>
+    </footer>
+
+</body>
+</html>
